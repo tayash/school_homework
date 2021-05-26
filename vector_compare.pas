@@ -9,8 +9,6 @@ var
 
 
 begin
-  for i:=1 to m do
-    a[i] := 0;
   cnt := 0;
   write('Enter the elements of the array: ');
   for i:=1 to m do
