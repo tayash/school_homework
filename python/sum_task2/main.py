@@ -7,7 +7,7 @@
 def sum_number(a, b):
     total = 0
     cnt = 0
-    for i in range (1, 7):
+    for i in range (0, 7):
         print("Enter the number")
         input_a = input()
         input_a = int(input_a)
