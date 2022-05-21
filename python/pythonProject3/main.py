@@ -6,14 +6,12 @@ def task():
     print("Enter the number")
     x = input()
     x = int(x)
-    if x < 0:
+    if x > 0:
         sqr = x ** 2
-        x = abs(x)
         rdc = x ** (1. / 3.)
-        rdc *= (-1)
-        print (f"квадрат: {sqr} корінь: {rdc}")
+        print (f"Число: {x} квадрат: {sqr} корінь кубічний: {rdc}")
     else:
-        print (f"число більше за нуль")
+        print (f"Число менше за нуль.")
    # Press Ctrl+F8 to toggle the breakpoint.
 
 
